@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <DJI_GETEMPFTNPAY_REQ xmlns="http://xmlns.oracle.com/Enterprise/Tools/schemas/DJI_GETEMPFTNPAY_REQ.v1">
+      <MsgData>
+        <Transaction>
+          <DJI_EMPINB_VW class="R" >
+            <EMPLID IsChanged="">{0}</EMPLID>
+          </DJI_EMPINB_VW>
+        </Transaction>
+      </MsgData>
+    </DJI_GETEMPFTNPAY_REQ>
+  </soap:Body>
+</soap:Envelope>
